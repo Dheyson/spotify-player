@@ -24,8 +24,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-| ![Dheyson Alves](https://avatars1.githubusercontent.com/u/30505432?s=460&u=340b0b9c8e7090870f679544e2eb0779e8f93e04&v=4)| ![Melqui Brito](https://avatars1.githubusercontent.com/u/45269246?s=460&u=610d150644ecab5b482889f6618df7a25505c18b&v=4)
-|:---------------------:|
 |  [Dheyson Alves](https://github.com/Dheyson) | [Melqui Brito](https://github.com/melquibrito)
 
 See also the list of [contributors](https://github.com/Dheyson/spotify-player/graphs/contributors) who participated in this project.
