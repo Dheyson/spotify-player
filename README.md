@@ -1,6 +1,6 @@
 # Spotify Wrapper Player
 
-![Spotify Wrapper Player Screenshot](example/screenshot.png)
+![Spotify Wrapper Player Screenshot](src/assets/images/screenshot.png)
 
 > This application uses [spotify-wrapper](https://github.com/willianjusten/spotify-wrapper) library to get informations and musics from Spotify.
 
