@@ -147,7 +147,8 @@ body {
 }
 
 .album-artist,
-.album-counter {
+.album-counter,
+.album-followers {
   font-weight: 300;
   margin-bottom: 25px;
 }
