@@ -2,9 +2,7 @@
 import 'jsdom-global/register';
 import { expect } from 'chai';
 
-import renderAlbumInfo from '../AlbumInfo/AlbumInfo';
-
-describe('AlbumInfo', () => {
+describe('AlbumInfoDetails', () => {
   const data = {
     album_type: 'album',
     artists: [{
@@ -26,6 +24,9 @@ describe('AlbumInfo', () => {
     }],
     name: 'The Essential Incubus',
     type: 'album',
+    explicit: true,
+    popularity: 56,
+    release_date: '2012-11-16',
     tracks: {
       total: 18,
     },
@@ -36,9 +37,6 @@ describe('AlbumInfo', () => {
     <p class="album-title">The Essential Incubus</p>
     <p class="album-artist">Incubus</p>
     <p class="album-counter">18 Músicas</p>
-    <p class="album-followers">56 Seguidores</p>
-    <p class="album-followers">2012-11-16</p>
-    <p class="album-followers">Explicit true</p>
   `;
 
   it('should create and append the markup given a correct data', () => {

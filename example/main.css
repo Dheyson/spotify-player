@@ -119,11 +119,27 @@ body {
 
 .container-inner {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 50px;
 }
 
 .album-info {
   margin-right: 50px;
+  text-align: center;
+}
+
+.container-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.album-info-details {
+  margin: 100px;
   text-align: center;
 }
 
@@ -151,6 +167,7 @@ body {
 .album-followers {
   font-weight: 300;
   margin-bottom: 25px;
+  color: #fff;
 }
 
 .play-btn {
